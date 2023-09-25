@@ -1,0 +1,151 @@
+%!Adobe-FontList 1.20
+%Locale:0x421
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Chrone-Regular
+FamilyName:Chrone
+StyleName:Regular
+FullName:Chrone Regular
+MenuName:Chrone
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\z kr work\Portfolio\Font\Chrone.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:7964
+FileModTime:1693560616
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Chrone Regular
+NameArray:0,Win,1,Chrone
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Chrone-Regular
+FamilyName:Chrone
+StyleName:Regular
+FullName:Chrone Regular
+MenuName:Chrone
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\z kr work\Portfolio\Font\Chrone.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:24920
+FileModTime:1693560620
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Chrone Regular
+NameArray:0,Win,1,Chrone
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MatchaSerif-Regular
+FamilyName:Matcha Serif
+StyleName:Regular
+FullName:Matcha Serif Regular
+MenuName:Matcha Serif
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\z kr work\Portfolio\Font\matchaserif-regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:26008
+FileModTime:1686299790
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Matcha Serif Regular
+NameArray:0,Mac,4,Matcha Serif Regular
+NameArray:0,Win,1,Matcha Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:MatchaSerif-Regular
+FamilyName:Matcha Serif
+StyleName:Regular
+FullName:Matcha Serif Regular
+MenuName:Matcha Serif
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\z kr work\Portfolio\Font\matchaserif-regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:54444
+FileModTime:1686299790
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Matcha Serif Regular
+NameArray:0,Mac,4,Matcha Serif Regular
+NameArray:0,Win,1,Matcha Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:StarifeDemoRegular
+FamilyName:Starife Demo
+StyleName:Regular
+FullName:Starife Demo
+MenuName:Starife Demo
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\z kr work\Portfolio\Font\Starife.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:80392
+FileModTime:1595792252
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Starife Demo
+NameArray:0,Win,1,Starife Demo
+NameArray:0,Win,16,Starife Demo
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:StarifeDemoRegular
+FamilyName:Starife Demo
+StyleName:Regular
+FullName:Starife Demo
+MenuName:Starife Demo
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\z kr work\Portfolio\Font\Starife.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:26636
+FileModTime:1595792252
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Starife Demo
+NameArray:0,Win,1,Starife Demo
+NameArray:0,Win,16,Starife Demo
+%EndFont
+
