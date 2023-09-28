@@ -8,7 +8,7 @@ window.addEventListener('load', () => {
             behavior: 'smooth', // Use smooth scrolling behavior
             block: 'start' // Scroll to the top of the target element
         });
-    }, 2500);
+    }, 1000);
 })
 
 
