@@ -1,3 +1,17 @@
+//----------------    preloader   ----------------
+window.addEventListener('load', () => {
+    setTimeout(() => {
+        document.getElementById("preloader").style.display = 'none';
+        const content = document.getElementById("content")
+        content.style.display = 'block';
+        content.scrollIntoView({
+            behavior: 'smooth', // Use smooth scrolling behavior
+            block: 'start' // Scroll to the top of the target element
+        });
+    }, 2500);
+})
+
+
 function callnow() {
     var scroll = new LocomotiveScroll(
         {

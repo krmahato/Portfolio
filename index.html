@@ -6,6 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Krishna</title>
+
+    <!------------------ favicon ------------------>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 
     <!---------------- icon packs ---------------->
@@ -20,225 +29,246 @@
 
     <link rel="stylesheet" href="public/locomotive-scroll.min.css">
     <link rel="stylesheet" href="public/hamburgers.css">
+    <link rel="stylesheet" href="public/preloader.css">
     <link rel="stylesheet" href="public/style.css">
 </head>
 
 <body>
-    <div class="navbar">
-        <div class="bar">
-            <div class="navbar-brand">
-                <a href="#"><img src="images/Untitled (1).png" alt=""></a>
-            </div>
 
-            <!---------------- Hamburger Menu Icon ---------------->
-            <button class="hamburger hamburger--emphatic" type="button">
-                <span class="hamburger-box">
-                    <span class="hamburger-inner"></span>
-                </span>
-            </button>
+    <div id="preloader">
+        <div class="spinner">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
-
-
-        <div class="menu-wrapper">
-            <div class="mainMenu">
-                <div class="nav-links">
-                    <a href="#header">About</a>
-                    <a href="#work-section">Work</a>
-                    <a href="#skill-section">Skill</a>
-                </div>
-                <div class="contacts">
-                    <p>krishnamahato133@gmail.com</p>
-                    <p>+91 7631294956</p>
-                </div>
-            </div>
-        </div>
-
     </div>
 
 
-
-    <section data-scroll-container>
-        <div id="header" data-scroll-section>
-            <div class="hero-section">
-                <div class="header-intro">
-                    <p>Hi, I'm</p>
-                    <h1>KRISHNA</h1>
+    <div id="content">
+        <!------------------ navbar ------------------>
+        <div class="navbar">
+            <div class="bar">
+                <div class="navbar-brand">
+                    <a href="#"><img src="images/Untitled (1).png" alt=""></a>
                 </div>
-                <p class="header-des">An aspiring Software Developer with a focus on crafting engaging, intuitive user
-                    experiences and to create user-centered solutions for diverse platforms and industries.</p>
 
-                <div class="social">
-                    <a href="https://drive.google.com/file/d/1Ht5nwlks1slM66PgliFRhWeopA6_hNFo/view?usp=sharing" class="social-btn">Resume</a>
-                    <a href="https://www.linkedin.com/in/krmahato/" class="social-btn">LinkedIn</a>
-                    <a href="https://github.com/krmahato" class="social-btn">Github</a>
-                </div>
+                <!---------------- Hamburger Menu Icon ---------------->
+                <button class="hamburger hamburger--emphatic" type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
             </div>
-        </div>
-        <div id="work-section" data-scroll-section>
-            <div><i class="fa-solid fa-wand-sparkles"></i></div>
-            <h2 class="work-title">Work</h2>
-          <!--  <p class="work-desc">any work description</p>-->
 
-            <div class="work-group">
 
-                <div class="work work1" data-link="https://krmahato.github.io/GRENA-The-Landing-Page/"
-                    onclick="openWebpage(this)">
-                    <div class="work-image">
-                        <div class="link-arrow"><i class="fa-solid fa-arrow-right-long"></i></div>
-                        <img src="images/work1.png" alt="">
+            <div class="menu-wrapper">
+                <div class="mainMenu">
+                    <div class="nav-links">
+                        <a href="#header">About</a>
+                        <a href="#work-section">Work</a>
+                        <a href="#skill-section">Skill</a>
                     </div>
-                    <div class="work-detail">
-                        <h3>Grena</h3>
-                        <p>Webpage design</p>
-                    </div>
-                </div>
-                <div class="work work4" data-link="https://github.com/krmahato/All-in-1-Calculator"
-                    onclick="openWebpage(this)">
-                    <div class="work-image">
-                        <div class="link-arrow"><i class="fa-solid fa-arrow-right-long"></i></div>
-                        <img src="images/work4.png" alt="">
-                    </div>
-                    <div class="work-detail">
-                        <h3>All in 1 Calculator</h3>
-                        <p>Utility Webpage</p>
-                    </div>
-                </div>
-                <div class="work work2" data-link="https://krmahato.github.io/Drum-Game/"
-                    onclick="openWebpage(this)">
-                    <div class="work-image">
-                        <div class="link-arrow"><i class="fa-solid fa-arrow-right-long"></i></div>
-                        <img src="images/work2.png" alt="">
-                    </div>
-                    <div class="work-detail">
-                        <h3>Drummer</h3>
-                        <p>Game Webpage Design</p>
-                    </div>
-                </div>
-                <div class="work work3" data-link="https://krmahato.github.io/Tindog-landing-page/"
-                    onclick="openWebpage(this)">
-                    <div class="work-image">
-                        <div class="link-arrow"><i class="fa-solid fa-arrow-right-long"></i></div>
-                        <img src="images/work3.png" alt="">
-                    </div>
-                    <div class="work-detail">
-                        <h3>Tindog</h3>
-                        <p>Webpage design</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!------------------------ skill ------------------------>
-        <div id="skill-section" data-scroll-section>
-            <div><span class="material-icons">auto_awesome</span></div>
-            <h2 class="skill-title">Skills</h2>
-
-            <div class="prebar-wrapper">
-                <div class="prebars-cont">
-                    <div class="prebar">
-                        <span>HTML/CSS</span>
-                        <span>90%</span>
-                    </div>
-                    <div class="bar">
-                        <div class="bar-range" style="width: 0%" data-fullWidth="90"></div>
-                    </div>
-                </div>
-                <div class="prebars-cont">
-                    <div class="prebar">
-                        <span>JavaScript</span>
-                        <span>80%</span>
-                    </div>
-                    <div class="bar">
-                        <div class="bar-range" style="width: 0%" data-fullWidth="80"></div>
-                    </div>
-                </div>
-                <div class="prebars-cont">
-                    <div class="prebar">
-                        <span>Python</span>
-                        <span>85%</span>
-                    </div>
-                    <div class="bar">
-                        <div class="bar-range" style="width: 0%" data-fullWidth="85"></div>
-                    </div>
-                </div>
-                <div class="prebars-cont">
-                    <div class="prebar">
-                        <span>ReactJS</span>
-                        <span>75%</span>
-                    </div>
-                    <div class="bar">
-                        <div class="bar-range" style="width: 0%" data-fullWidth="75"></div>
-                    </div>
-                </div>
-                <div class="prebars-cont">
-                    <div class="prebar">
-                        <span>NodeJS</span>
-                        <span>70%</span>
-                    </div>
-                    <div class="bar">
-                        <div class="bar-range" style="width: 0%" data-fullWidth="70"></div>
-                    </div>
-                </div>
-                <div class="prebars-cont">
-                    <div class="prebar">
-                        <span>Adobe Illustrator</span>
-                        <span>78%</span>
-                    </div>
-                    <div class="bar">
-                        <div class="bar-range" style="width: 0%" data-fullWidth="78"></div>
-                    </div>
-                </div>
-                <div class="prebars-cont">
-                    <div class="prebar">
-                        <span>Adobe Photoshop</span>
-                        <span>78%</span>
-                    </div>
-                    <div class="bar">
-                        <div class="bar-range" style="width: 0%" data-fullWidth="78"></div>
-                    </div>
-                </div>
-                <div class="prebars-cont">
-                    <div class="prebar">
-                        <span>Git/Github</span>
-                        <span>69%</span>
-                    </div>
-                    <div class="bar">
-                        <div class="bar-range" style="width: 0%" data-fullWidth="69"></div>
-                    </div>
-                </div>
-                <div class="prebars-cont">
-                    <div class="prebar">
-                        <span>MySQL</span>
-                        <span>76%</span>
-                    </div>
-                    <div class="bar">
-                        <div class="bar-range" style="width: 0%" data-fullWidth="76"></div>
+                    <div class="contacts">
+                        <p>krishnamahato133@gmail.com</p>
+                        <p>+91 7631294956</p>
                     </div>
                 </div>
             </div>
 
         </div>
 
-        <!------------------------ contact-me ------------------------>
-        <div id="contactme" data-scroll-section>
-            <div class="contact-wrapper">
-                <div class="chat" data-link="mailto:krishnamahato133@gmail.com"
-                onclick="openWebpage(this)">
-                    <div class="link-arrow"><i class="fa-solid fa-arrow-right-long"></i></div>
-                    <p>Let's chat</p>
-                </div>
 
-                <a class="email">krishnamahato133@gmail.com</a>
 
-                <div class="social">
-                    <a href="https://drive.google.com/file/d/1Ht5nwlks1slM66PgliFRhWeopA6_hNFo/view?usp=sharing" class="social-btn">Resume</a>
-                    <a href="https://www.linkedin.com/in/krmahato/" class="social-btn">LinkedIn</a>
-                    <a href="https://github.com/krmahato" class="social-btn">Github</a>
+        <section data-scroll-container>
+            <div id="header" data-scroll-section>
+                <div class="hero-section">
+                    <div class="header-intro">
+                        <p>Hi, I'm</p>
+                        <h1>KRISHNA</h1>
+                    </div>
+                    <p class="header-des">An aspiring Software Developer with a focus on crafting engaging, intuitive
+                        user
+                        experiences and to create user-centered solutions for diverse platforms and industries.</p>
+
+                    <div class="social">
+                        <a href="https://drive.google.com/file/d/1hOBvnCJoAatodtD5YJSnJvXT8NtOgoO0/view?usp=sharing"
+                            class="social-btn">Resume</a>
+                        <a href="https://www.linkedin.com/in/krmahato/" class="social-btn">LinkedIn</a>
+                        <a href="https://github.com/krmahato" class="social-btn">Github</a>
+                    </div>
                 </div>
             </div>
-            <p class="copyright">&copy; Copyright <strong>Krishna</strong>. All Rights Reserved. <span id="currentYear"></span></p>
-        </div>
-    </section>
+            <div id="work-section" data-scroll-section>
+                <div><i class="fa-solid fa-wand-sparkles"></i></div>
+                <h2 class="work-title">Work</h2>
+                <!--  <p class="work-desc">any work description</p>-->
+
+                <div class="work-group">
+
+                    <div class="work work1" data-link="https://krmahato.github.io/GRENA-The-Landing-Page/"
+                        onclick="openWebpage(this)">
+                        <div class="work-image">
+                            <div class="link-arrow"><i class="fa-solid fa-arrow-right-long"></i></div>
+                            <img src="images/work1.png" alt="">
+                        </div>
+                        <div class="work-detail">
+                            <h3>Grena</h3>
+                            <p>Webpage design</p>
+                        </div>
+                    </div>
+                    <div class="work work4" data-link="https://github.com/krmahato/All-in-1-Calculator"
+                        onclick="openWebpage(this)">
+                        <div class="work-image">
+                            <div class="link-arrow"><i class="fa-solid fa-arrow-right-long"></i></div>
+                            <img src="images/work4.png" alt="">
+                        </div>
+                        <div class="work-detail">
+                            <h3>All in 1 Calculator</h3>
+                            <p>Utility Webpage</p>
+                        </div>
+                    </div>
+                    <div class="work work2" data-link="https://krmahato.github.io/Drum-Game/"
+                        onclick="openWebpage(this)">
+                        <div class="work-image">
+                            <div class="link-arrow"><i class="fa-solid fa-arrow-right-long"></i></div>
+                            <img src="images/work2.png" alt="">
+                        </div>
+                        <div class="work-detail">
+                            <h3>Drummer</h3>
+                            <p>Game Webpage Design</p>
+                        </div>
+                    </div>
+                    <div class="work work3" data-link="https://krmahato.github.io/Tindog-landing-page/"
+                        onclick="openWebpage(this)">
+                        <div class="work-image">
+                            <div class="link-arrow"><i class="fa-solid fa-arrow-right-long"></i></div>
+                            <img src="images/work3.png" alt="">
+                        </div>
+                        <div class="work-detail">
+                            <h3>Tindog</h3>
+                            <p>Webpage design</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!------------------------ skill ------------------------>
+            <div id="skill-section" data-scroll-section>
+                <div><span class="material-icons">auto_awesome</span></div>
+                <h2 class="skill-title">Skills</h2>
+
+                <div class="prebar-wrapper">
+                    <div class="prebars-cont">
+                        <div class="prebar">
+                            <span>HTML/CSS</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="bar">
+                            <div class="bar-range" style="width: 0%" data-fullWidth="90"></div>
+                        </div>
+                    </div>
+                    <div class="prebars-cont">
+                        <div class="prebar">
+                            <span>JavaScript</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="bar">
+                            <div class="bar-range" style="width: 0%" data-fullWidth="80"></div>
+                        </div>
+                    </div>
+                    <div class="prebars-cont">
+                        <div class="prebar">
+                            <span>Python</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="bar">
+                            <div class="bar-range" style="width: 0%" data-fullWidth="85"></div>
+                        </div>
+                    </div>
+                    <div class="prebars-cont">
+                        <div class="prebar">
+                            <span>ReactJS</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="bar">
+                            <div class="bar-range" style="width: 0%" data-fullWidth="75"></div>
+                        </div>
+                    </div>
+                    <div class="prebars-cont">
+                        <div class="prebar">
+                            <span>NodeJS</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="bar">
+                            <div class="bar-range" style="width: 0%" data-fullWidth="70"></div>
+                        </div>
+                    </div>
+                    <div class="prebars-cont">
+                        <div class="prebar">
+                            <span>Adobe Illustrator</span>
+                            <span>78%</span>
+                        </div>
+                        <div class="bar">
+                            <div class="bar-range" style="width: 0%" data-fullWidth="78"></div>
+                        </div>
+                    </div>
+                    <div class="prebars-cont">
+                        <div class="prebar">
+                            <span>Adobe Photoshop</span>
+                            <span>78%</span>
+                        </div>
+                        <div class="bar">
+                            <div class="bar-range" style="width: 0%" data-fullWidth="78"></div>
+                        </div>
+                    </div>
+                    <div class="prebars-cont">
+                        <div class="prebar">
+                            <span>Git/Github</span>
+                            <span>69%</span>
+                        </div>
+                        <div class="bar">
+                            <div class="bar-range" style="width: 0%" data-fullWidth="69"></div>
+                        </div>
+                    </div>
+                    <div class="prebars-cont">
+                        <div class="prebar">
+                            <span>MySQL</span>
+                            <span>76%</span>
+                        </div>
+                        <div class="bar">
+                            <div class="bar-range" style="width: 0%" data-fullWidth="76"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!------------------------ contact-me ------------------------>
+            <div id="contactme" data-scroll-section>
+                <div class="contact-wrapper">
+                    <div class="chat" data-link="mailto:krishnamahato133@gmail.com" onclick="openWebpage(this)">
+                        <div class="link-arrow"><i class="fa-solid fa-arrow-right-long"></i></div>
+                        <p>Let's chat</p>
+                    </div>
+
+                    <a class="email">krishnamahato133@gmail.com</a>
+
+                    <div class="social">
+                        <a href="https://drive.google.com/file/d/1Ht5nwlks1slM66PgliFRhWeopA6_hNFo/view?usp=sharing"
+                            class="social-btn">Resume</a>
+                        <a href="https://www.linkedin.com/in/krmahato/" class="social-btn">LinkedIn</a>
+                        <a href="https://github.com/krmahato" class="social-btn">Github</a>
+                    </div>
+                </div>
+                <p class="copyright">&copy; Copyright <strong>Krishna</strong>. All Rights Reserved. <span
+                        id="currentYear"></span></p>
+            </div>
+        </section>
+    </div>
+
 
 
 
